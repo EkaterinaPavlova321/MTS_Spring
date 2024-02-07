@@ -1,23 +1,31 @@
-package ru.mts.hw6;
+package ru.mts.hw6.repository;
 
-import java.util.Map;
+import ru.mts.hw6.entity.Animal;
 
-public interface SearchService {
+import java.util.Set;
+
+public interface AnimalsRepository {
 
     /**
      * Метод, который находит всех животных, рожденных
      * в високосный год
      */
-    String[] findLeapYearNames(Animal[] animals);
+    String[] findLeapYearNames();
 
     /**
      * Метод, который ныходит животных, которые старше
      * возраста, поступающего на вход
      */
-    Animal[] findOlderAnimal(Animal[] animals, int n);
+    Animal[] findOlderAnimal(int age);
 
     /**
      * Метод, которй выводит на экран дубликаты животных
      */
-    Map<Animal, Integer> findDuplicate(Animal[] animals);
+    Set<Animal> findDuplicate();
+
+    /**
+     * Метод, который выводит на экрах дубликаты
+     */
+
+    void printDuplicate();
 }

@@ -1,4 +1,7 @@
-package ru.mts.hw6;
+package ru.mts.hw6.service;
+
+import ru.mts.hw6.AnimalFactory.AnimalType;
+import ru.mts.hw6.entity.*;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

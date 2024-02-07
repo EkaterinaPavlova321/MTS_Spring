@@ -1,4 +1,4 @@
-package ru.mts.hw6;
+package ru.mts.hw6.entity;
 
 
 import java.math.BigDecimal;

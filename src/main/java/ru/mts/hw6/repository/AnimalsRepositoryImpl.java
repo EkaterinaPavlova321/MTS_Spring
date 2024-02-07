@@ -1,11 +1,13 @@
-package ru.mts.hw6;
+package ru.mts.hw6.repository;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
+import ru.mts.hw6.entity.Animal;
+import ru.mts.hw6.service.CreateAnimalService;
 
 import java.util.*;
 
-public class AnimalsRepositoryImpl implements AnimalsRepository{
+public class AnimalsRepositoryImpl implements AnimalsRepository {
     private final List<Animal> animalsList = new ArrayList<>(); // Инициализируем список здесь
 
     @Autowired

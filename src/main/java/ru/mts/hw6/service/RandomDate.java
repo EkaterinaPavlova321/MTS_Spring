@@ -1,4 +1,4 @@
-package ru.mts.hw6;
+package ru.mts.hw6.service;
 
 import java.time.LocalDate;
 import java.util.Random;
