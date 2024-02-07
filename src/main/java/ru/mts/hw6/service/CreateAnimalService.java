@@ -1,6 +1,6 @@
 package ru.mts.hw6.service;
 
-import ru.mts.hw6.AnimalFactory.AnimalType;
+import ru.mts.hw6.animalFactory.AnimalType;
 import ru.mts.hw6.entity.*;
 
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package ru.mts.hw6.AnimalFactory;
+package ru.mts.hw6.animalFactory;
 
 public enum AnimalType {
     WOLF,
