@@ -1,1 +1,2 @@
-rootProject.name = 'MTS'
+rootProject.name = 'MTS_spring'
+include 'application-starter'
