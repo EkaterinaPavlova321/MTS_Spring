@@ -21,17 +21,11 @@ public class Config {
         return new AnimalsRepositoryImpl();
     }
 
-
     @Bean
     @Scope("prototype")
     public CreateAnimalService createAnimalService() {
         return new CreateAnimalServiceImpl();
     }
-
-//    @Bean
-//    public AnimalsRepository animalsRepository() {
-//        return new AnimalsRepositoryImpl();
-//    }
 
     @Bean
     public CreateAnimalServiceBeanPostProcessor createAnimalServiceBeanPostProcessor(){
